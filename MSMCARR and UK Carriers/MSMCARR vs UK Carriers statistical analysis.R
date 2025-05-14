@@ -7,8 +7,8 @@ library(ggplot2)
 library(tidyr)
 
 # Load datasets (from Sheet1)
-MSM_data <- read_excel("C:/Users/memon/OneDrive - Nexus365/Year 4/MSM vs Non-MSM stat analysis/LIN Code/LIN Code MSMCARR.xlsx", sheet = "Sheet1")
-UK_data <- read_excel("C:/Users/memon/OneDrive - Nexus365/Year 4/MSM vs Non-MSM stat analysis/LIN Code/LIN Code All UK Carriers.xlsx", sheet = "Sheet1")
+MSM_data <- read_excel("C:/Users/OneDrive - Nexus365/Year 4/MSM vs Non-MSM stat analysis/LIN Code/LIN Code MSMCARR.xlsx", sheet = "Sheet1")
+UK_data <- read_excel("C:/Users/OneDrive - Nexus365/Year 4/MSM vs Non-MSM stat analysis/LIN Code/LIN Code All UK Carriers.xlsx", sheet = "Sheet1")
 
 # Lineages of interest
 lineages <- c(
