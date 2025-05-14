@@ -3,7 +3,7 @@ library(tidyverse)
 library(readxl)
 
 # Read raw data
-data <- read_excel("C:/Users/memon/OneDrive - Nexus365/Year 4/Behavioural statistical analysis.xlsx", 
+data <- read_excel("C:/Users/OneDrive - Nexus365/Year 4/Behavioural statistical analysis.xlsx", 
                               sheet = "ChiSqr")
 
 # Check the class (e.g. numerical/categorical) of the variables  - correct
